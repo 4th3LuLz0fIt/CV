@@ -3,9 +3,41 @@ body{
   padding: 0;
   margin: 0;
   font-family: cursive, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+  background-image: linear-gradient(-90deg, black, #333, black);
+  
+  color: aliceblue;
+}
+/* Header*/
+header , form,
+.experiance-block, 
+.skill-block,
+.info-contact {
+  margin:0 auto;
+  text-align: center;
+  
+  width: 500px;
+  justify-content: center;
+  
 }
 
-header {
-  text-align: center;
+
+
+
+
+hr {
+  /**background-color: aliceblue;**/
+  border-style:none;
+  border-top: dotted rgb(218, 202, 202) 5px;
+  height: 1.8px;
+  width: 10%;
+  
+}
+
+table th {
+ border: 3px solid;
+}
+
+table td {
+  border: 2px solid;
+  padding: 5px;
 }
